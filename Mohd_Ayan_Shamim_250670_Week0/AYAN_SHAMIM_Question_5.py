@@ -4,7 +4,7 @@ import gymnasium as gym
 env = gym.make("LunarLander-v3", render_mode="human")
 
 # Reset the environment to generate the first observation
-observation, info = env.reset(seed=42)
+observation, info = env.reset(seed=9999)
 x_co=observation[0]
 y_co=observation[1]
 vx=observation[2]
